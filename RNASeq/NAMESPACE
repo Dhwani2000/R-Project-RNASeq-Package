@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+
+import(Biostrings)
+importFrom(Rcpp, sourceCpp)
+
+export(rna_from_dna)
+
